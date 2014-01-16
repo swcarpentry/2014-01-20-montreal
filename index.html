@@ -28,11 +28,20 @@ eventbrite: 9698535581
 
 <div class="row-fluid">
   <div class="span6">
-    {% include setup/overview-bash.html %}
-    {% include setup/overview-editor.html %}
+    <h3>Python</h3>
+    {% include setup/macosx-python.html %}
+    {% include setup/windows-python.html %}
+    {% include setup/linux-python.html %}
   </div>
   <div class="span6">
-    {% include setup/overview-git.html %}
-    {% include setup/overview-python.html %}
+    <h3>A Text Editor</h3>
+    {% include setup/macosx-editor.html %}
+    {% include setup/windows-editor.html %}
+    {% include setup/linux-editor.html %}
+    <hr/>
+    <h3>The Unix Shell</h3>
+    {% include setup/macosx-bash.html %}
+    {% include setup/windows-bash.html %}
+    {% include setup/linux-bash.html %}
   </div>
 </div>
